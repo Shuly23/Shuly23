@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drets i Deures Laborals - Impresionant!</title>
+    <style>
+        /* Fons intergalàctic animat */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            background: radial-gradient(circle, #0d1b2a, #1b263b, #415a77);
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://i.imgur.com/Qd6j0g3.png') repeat;
+            background-size: cover;
+            opacity: 0.2;
+            z-index: -1;
+            animation: starAnimation 30s linear infinite;
+        }
+
+        @keyframes starAnimation {
+            0% { background-position: 0 0; }
+            100% { background-position: -10000px 10000px; }
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 4em;
+            color: #ffdd57;
+            text-shadow: 0 0 15px #fff, 0 0 20px #ff1177;
+            margin-top: 50px;
+            animation: neonPulse 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes neonPulse {
+            from { text-shadow: 0 0 15px #fff, 0 0 25px #ff1177, 0 0 30px #ff1177; }
+            to { text-shadow: 0 0 5px #fff, 0 0 10px #ff1177, 0 0 15px #ff1177; }
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 50px;
+            perspective: 1000px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 30px 50px rgba(0, 0, 0, 0.5);
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+            transform-style: preserve-3d;
+            cursor: pointer;
+            backdrop-filter: blur(15px);
+        }
+
+        .card:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 50px 80px rgba(0, 0, 0, 0.7);
+        }
+
+        .card h2 {
+            color: #00d4ff;
+            text-align: center;
+            font-size: 2em;
+            text-shadow: 0 0 10px #00d4ff;
+        }
+
+        .card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .card ul li {
+            padding: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .card ul li:last-child {
+            border-bottom: none;
+        }
+
+        .card ul li:hover {
+            color: #ffdd57;
+            text-shadow: 0 0 10px #ffdd57;
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            color: #ccc;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Drets i Deures Laborals</h1>
+    <div class="container">
+        <div class="card">
+            <h2>Drets dels Treballadors</h2>
+            <ul>
+                <li>Remuneració justa</li>
+                <li>Seguretat i salut en el treball</li>
+                <li>Igualtat i no discriminació</li>
+                <li>Formació professional</li>
+                <li>Intimitat i respecte a la dignitat</li>
+                <li>Llibertat d'expressió</li>
+                <li>Negociació col·lectiva</li>
+                <li>Descans i vacances</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Deures dels Treballadors</h2>
+            <ul>
+                <li>Compliment de les obligacions laborals</li>
+                <li>Seguretat i salut</li>
+                <li>Respecte a la dignitat</li>
+                <li>Confidencialitat i bona fe</li>
+                <li>Ús responsable dels recursos</li>
+                <li>Respecte a les normes internes</li>
+                <li>Col·laboració en la productivitat</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Drets dels Empresaris</h2>
+            <ul>
+                <li>Direcció i organització</li>
+                <li>Exigir obligacions laborals</li>
+                <li>Establir normes internes</li>
+                <li>Mesures disciplinàries</li>
+                <li>Protecció de recursos</li>
+                <li>Modificar condicions laborals</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Deures dels Empresaris</h2>
+            <ul>
+                <li>Compliment salarial</li>
+                <li>Seguretat i salut laboral</li>
+                <li>Respecte a la dignitat i igualtat</li>
+                <li>Formació necessària</li>
+                <li>Legislació laboral</li>
+                <li>Privacitat dels treballadors</li>
+                <li>Contribució a la Seguretat Social</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Drets i Deures Laborals - Creat per Yandri Becerra
+    </footer>
+</body>
+</html>
